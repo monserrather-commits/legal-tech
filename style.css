@@ -1,0 +1,72 @@
+/* Definición de la variable para el color azul rey */
+:root {
+    --royal-blue-accent: #004080; /* Un azul oscuro y profesional */
+    --light-background: #ffffff; /* Fondo blanco */
+}
+
+body {
+    /* Fondo limpio */
+    background-color: #f4f4f9; 
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333; 
+}
+
+/* Selector de ID para el título principal, usando el azul rey */
+#titulo-principal {
+    color: var(--royal-blue-accent); /* Color Azul Rey */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Selector de CLASE para la sección principal */
+.seccion-principal {
+    background-color: var(--light-background); /* Fondo de la sección blanco */
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Selector de CLASE para resaltar texto en rojo para contraste */
+.resaltado {
+    color: #c0392b; /* Rojo para un contraste fuerte */
+    font-weight: bold;
+}
+
+/* Estilos para los títulos secundarios */
+h3 {
+    color: var(--royal-blue-accent);
+}
+
+/* Selector de ID para la imagen */
+#imagen-legal-tech {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+/* Estilos para la tabla */
+.tabla-requisitos {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.tabla-requisitos th, .tabla-requisitos td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Encabezados de tabla en Azul Rey */
+.tabla-requisitos th {
+    background-color: var(--royal-blue-accent); 
+    color: white;
+}
